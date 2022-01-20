@@ -109,14 +109,14 @@ header {
         justify-content: center;
         align-items: center;
         padding: 5rem 0;
-    
+        flex-wrap: wrap;
         .flex-text-container {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             justify-content: flex-start;
             max-width: 50%;
-            padding: 0 5rem;
+            padding: 3rem 5rem;
             h4 {
                 font-size: 2rem;
                 padding: 0;
@@ -144,7 +144,7 @@ header {
             }
         }
         .flex-image-container {
-            padding: 0 5rem;
+            padding: 3rem 5rem;
         }
     }
     
