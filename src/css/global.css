@@ -334,10 +334,27 @@ header {
           align-items: center;
 }
 
+header .logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav ul {
+  list-style: none;
+  text-decoration: none;
+}
+
 header nav ul li {
   padding: 0 1.5rem;
   display: inline-block;
   font-size: 1.5rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .movieContainer {
@@ -419,5 +436,179 @@ header nav ul li {
 .movie:hover .movie-over {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
+}
+
+.main-section .main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0;
+}
+
+.main-section .main-wrapper .flex-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  max-width: 50%;
+  padding: 0 5rem;
+}
+
+.main-section .main-wrapper .flex-text-container h4 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.main-section .main-wrapper .flex-text-container h1 {
+  padding: 0;
+}
+
+.main-section .main-wrapper .flex-text-container span {
+  color: #585d9e;
+}
+
+.main-section .main-wrapper .flex-text-container p {
+  max-width: 30rem;
+}
+
+.main-section .main-wrapper .flex-text-container button {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 3rem;
+  background-color: #da3e3e;
+  border-radius: 1rem;
+}
+
+.main-section .main-wrapper .flex-text-container button:hover {
+  background-color: #ec5252;
+  cursor: pointer;
+}
+
+.main-section .main-wrapper .flex-image-container {
+  padding: 0 5rem;
+}
+
+.main-section footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0 0 0;
+}
+
+.main-section footer .social-links {
+  padding: 0 10rem;
+}
+
+.main-section footer .social-links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+}
+
+.main-section footer .contact-info {
+  padding: 0 10rem;
+}
+
+.main-section footer .contact-info p {
+  margin: 0;
+  padding: .3rem 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #f5f5f5;
+}
+
+.contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7rem 30rem;
+}
+
+.contact-wrapper h1 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contact-wrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-wrapper form label {
+  font-weight: bold;
+}
+
+.contact-wrapper form input {
+  border: 2px solid #585d9e;
+  border-radius: 5px;
+  padding: 0.3rem 0.3rem;
+  margin: 1rem 0 3rem 0;
+  outline: none;
+  resize: none;
+}
+
+.contact-wrapper form textarea {
+  margin-top: 1rem;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+.contact-wrapper form textarea:focus {
+  background-color: #585d9e;
+}
+
+.contact-wrapper button {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 2.7rem;
+  background-color: #da3e3e;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+
+.contact-wrapper button:hover {
+  background-color: #ec5252;
+  cursor: pointer;
 }
 /*# sourceMappingURL=global.css.map */
